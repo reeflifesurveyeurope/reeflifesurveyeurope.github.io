@@ -159,7 +159,7 @@ input, select, textarea {
 
 		a:hover {
 			color: transparent;
-			border-bottom-color: transparent;
+			border-bottom-color: #ef8376;
 		}
 
 	sub {
