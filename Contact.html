@@ -52,14 +52,20 @@
 							<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
 </p>
 
-<form action="#" method="POST" style="margin-top: 2em; max-width: 600px; margin-left:auto; margin-right:auto;">
-  <label for="name" style="display: block; text-align: left; margin-bottom: 0.5em;">Name *</label>
-<label for="email" style="display: block; text-align: left; margin-bottom: 0.5em;">Email *</label>
-<label for="message" style="display: block; text-align: left; margin-bottom: 0.5em;">Message *</label>
+
+								<form action="#" method="POST" style="margin-top: 2em; max-width: 600px; margin-left:auto; margin-right:auto;">
+  <label for="name" style="display: block; text-align: left;">Name *</label>
+  <input type="text" id="name" name="name" placeholder="Your name" required>
+  
+  <label for="email" style="display: block; text-align: left;">Email *</label>
+  <input type="email" id="email" name="email" placeholder="Your email" required>
+  
+  <label for="message" style="display: block; text-align: left;">Message *</label>
   <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
   
   <button type="submit" style="background:#e94e4e; color:white; padding:10px 20px; border:none; border-radius:4px; cursor:pointer;">Send Message</button>
 </form>
+
 					</article>
 				</div>
 			</div>
