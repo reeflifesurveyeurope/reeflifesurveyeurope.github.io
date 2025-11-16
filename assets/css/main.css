@@ -199,8 +199,8 @@ input, select, textarea {
 		top: 4.5em;
 		margin-bottom: 9em;
 		height: 6px;
-		border-top: solid 1px rgba(128, 128, 128, 0.2);
-		border-bottom: solid 1px rgba(128, 128, 128, 0.2);
+		border-top: solid 1px transparent;
+		border-bottom: solid 1px transparent;
 	}
 
 		hr:before, hr:after {
@@ -1870,7 +1870,7 @@ input, select, textarea {
 	}
 
 		ul.divided li {
-			border-top: solid 1px rgba(128, 128, 128, 0.2);
+			border-top: solid 1px transparent;
 			padding-top: 1.5em;
 			margin-top: 1.5em;
 			padding-left: 0;
